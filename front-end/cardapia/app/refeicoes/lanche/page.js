@@ -1,3 +1,3 @@
 export default function Home() {
-    return <button>Olá</button>;
+  return <p>diego de barros peladinho</p>;
 }

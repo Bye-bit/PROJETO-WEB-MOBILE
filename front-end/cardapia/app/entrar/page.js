@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import "./entrar.comite.css";
 
 export default function Home() {
   return (
@@ -15,20 +16,15 @@ export default function Home() {
         </div>
         <div className="direita">
           <h1>Faça seu login</h1>
-          <div className="hero-text">
-           
-          </div>
+          <div className="hero-text"></div>
 
           <div className="actions">
             <Link href="/principal" className="btn-principal">
               Entrar
             </Link>
           </div>
-
         </div>
-
       </div>
-
     </main>
   );
 }

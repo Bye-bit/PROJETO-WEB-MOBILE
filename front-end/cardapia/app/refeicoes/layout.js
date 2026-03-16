@@ -1,0 +1,14 @@
+import { Poppins } from "next/font/google";
+import "./refeicoes.css";
+import Intro from "../components/intro";
+
+export default function RootLayout({ children }) {
+  return (
+    <div className="container">
+      <Intro />
+      <div className="main">
+        <div className="main-container">{children}</div>
+      </div>
+    </div>
+  );
+}

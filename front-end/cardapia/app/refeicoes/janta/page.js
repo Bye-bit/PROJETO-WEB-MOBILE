@@ -1,3 +1,5 @@
 export default function Home() {
-    return "Olá";
+    return (
+        <p>teste</p>
+    );
 }
